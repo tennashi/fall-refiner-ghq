@@ -1,0 +1,18 @@
+{
+  "name": "@tennashi/fall-refiner-ghq",
+  "version": "0.1.0",
+  "exports": "./mod.ts",
+  "tasks": {
+    "check": "deno check ./**/*.ts",
+    "fmt": "deno fmt",
+    "lint": "deno lint",
+    "test": "deno test -A"
+  },
+  "fmt": {
+    "useTabs": false,
+    "lineWidth": 100,
+    "indentWidth": 2,
+    "singleQuote": false,
+    "exclude": ["README.md"]
+  }
+}
