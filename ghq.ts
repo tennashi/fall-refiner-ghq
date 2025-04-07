@@ -1,6 +1,6 @@
-import { defineRefiner, type Refiner } from "jsr:@vim-fall/std/refiner";
+import { defineRefiner, type Refiner } from "jsr:@vim-fall/std@0.12.0/refiner";
 import { join } from "jsr:@std/path@^1.0.8";
-import type { Detail as ShellDetail } from "jsr:@tennashi/fall-source-shell-command";
+import type { Detail as ShellDetail } from "jsr:@tennashi/fall-source-shell-command@0.1.0";
 
 export type Detail = {
   path: string;
