@@ -1,6 +1,7 @@
 {
   "name": "@tennashi/fall-refiner-ghq",
   "version": "0.1.0",
+  "license": "MIT",
   "exports": "./mod.ts",
   "tasks": {
     "check": "deno check ./**/*.ts",
